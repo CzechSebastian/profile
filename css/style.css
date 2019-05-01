@@ -134,6 +134,10 @@ hr {
   .profil-img{
     height: 150px;
   }
+
+  .icon{
+  font-size: 200%;
+}
 }
 @media (max-width: 540px) {
   .top-container {
@@ -151,5 +155,9 @@ hr {
   .profil-img{
     height: 100px;
   }
+
+    .icon{
+  font-size: 200%;
+}
 }
 
