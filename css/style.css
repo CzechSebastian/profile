@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto');
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p{
+  font-family: helvetica;
+  font-weight: lighter;
+  color: #455B76;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #EBEDF0;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 90px;
+  font-weight: normal;
+  color: #444951;
+  margin: 0 auto 0 auto;
+
+}
+
+h2 {
+  color: #444951;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #444951;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 5%;
+  border-style: none;
+  border-top: dotted;
+  border-color: #455B76;
+  border-width: 5px;
+  margin: 50px auto 50px auto;
+}
+.hello{
+  width: 40%;
+  margin: 30px auto 16px;
+}
+.profil-img {
+  height: 250px;
+  border-radius: 100%;
+  transition: transform .3s ease-in-out;
+}
+
+.profil-img:hover{
+  transform:rotate(360deg);
+  filter: blur(2px);
+}
+
+.computer {
+  border-radius: 100%;
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.sportcar {
+  margin-left: 30px;
+  border-radius: 100%;
+  float: right;
+  width: 25%;
+}
+
+.top-container {
+  background-color: #DADDE0;
+  position: relative;
+  padding: 32px;
+  margin: 40px auto;
+  text-align: center;
+  width: 1000px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 15px rgba(0,0,0,0.2);
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  margin-top: 60px;
+  background-color: #DADDE0;
+  color: #EAF6F6;
+}
+
+
+.about {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.icon{
+  color: #455B76;
+  font-size: 300%;
+  transition: ease all 0.3s;
+}
+.icon:hover{
+  color: #EBEDF0;
+  transform:rotate(15deg);
+}
+
+@media (max-width: 960px) {
+  .top-container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .top-container {
+    width: 500px;
+  }
+
+    h1{
+    font-size: 60px;
+  }
+
+  .profil-img{
+    height: 150px;
+  }
+}
+@media (max-width: 540px) {
+  .top-container {
+    width: 300px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .profil-img{
+    height: 100px;
+  }
+}
